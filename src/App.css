@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.text {
+  padding: 20px;
+}
+
+.list {
+    padding: 0 10vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cell {
+  padding: 7px;
+  cursor: pointer;
+  border: 4px solid rgb(113, 115, 173);
+  border-radius: 15px;
+  display: grid;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.cell:hover {
+  background-color: azure;
+  position: relative;
+  top: 2px;
+  -webkit-box-shadow: 4px 7px 30px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 7px 30px -6px rgba(0,0,0,0.75);
+  box-shadow: 4px 7px 30px -6px rgba(0,0,0,0.75);
+}
+
+.cell p {
+  margin: 0;
+}
+
+.cc {
+  font-weight: 600;
+}
